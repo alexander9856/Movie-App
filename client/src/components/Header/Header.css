@@ -1,0 +1,39 @@
+nav {
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    background-color: #444444;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+    padding: 0;
+    border-top: 1px solid #989191;
+    border-right: 1px solid #989191;
+    border-left: 1px solid #989191;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+
+}
+
+
+li {
+    list-style: none;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    width: 12rem;
+    text-align: center;
+}
+
+li:hover {
+    opacity: 80%;
+}
+
+.clicked {
+    border-bottom: 4px solid #33B5E5;
+    background-color: #595959;
+}

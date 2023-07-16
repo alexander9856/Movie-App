@@ -1,0 +1,39 @@
+#notFound {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+#notFound img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.reason {
+    color: rgb(255, 5, 13);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#notFound a {
+    margin-top: 2rem;
+    color: rgb(235, 235, 235);
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 24px;
+    background-color: rgb(201, 32, 32);
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#notFound a:hover {
+    opacity: 80%;
+}
+
+.fa-arrow-left{
+    margin-right: 0.5rem;
+    font-size: 20px;
+}
