@@ -1,0 +1,9 @@
+[
+  {
+    "_id":{"$oid":"64873dda4e873a3ae5c855cc"},
+    "movieId":{"$oid":"61e57fd65c5338f43c777f4a"},
+    "owner":"yulia",
+    "collection":"wishlist",
+    "isFavorite":false
+  }
+]
