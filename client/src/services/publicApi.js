@@ -16,7 +16,7 @@ export const getMovies = async (url) => await request("GET", url);
 
 export const publicMoviesData = async (searchValue, selected) => {
     try {
-        const url = searchValue ? `/titles/search/title/${searchValue}?exact=false&titleType=movie` : `/titles/random?list=${selected}`;
+        const url = searchValue ? `/titles/search/title/${searchValue}` : `/titles/random?list=${selected}`;
         const res = await getMovies(url);
         const data = await res.json();
         return {
